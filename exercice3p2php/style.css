@@ -1,0 +1,27 @@
+body {
+  background-color: pink;
+}
+
+.youngWoman {
+  text-align: center;
+  color: red;
+  font-size: 100px;
+}
+
+.oldWoman {
+  text-align: center;
+  color: yellow;
+  font-size: 100px;
+}
+
+.youngMan {
+  text-align: center;
+  color: blue;
+  font-size: 100px;
+}
+
+.oldMan {
+  text-align: center;
+  color: lightblue;
+  font-size: 100px;
+}

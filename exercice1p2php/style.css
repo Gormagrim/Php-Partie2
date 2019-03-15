@@ -1,0 +1,15 @@
+body {
+  background-image: url(/fleurs.gif);
+}
+
+.old {
+  color: black;
+  font-weight: bold;
+  font-size: 100px;
+}
+
+.young {
+  color: black;
+  font-weight: bolder;
+  font-size: 100px;
+}

@@ -1,0 +1,21 @@
+body {
+  background-color: yellow;
+}
+
+.woman {
+  font-size: 100px;
+  color: blue;
+  text-align: center;
+}
+
+.man {
+  font-size: 100px;
+  color: pink;
+  text-align: center;
+}
+
+.other {
+  font-size: 100px;
+  color: grey;
+  text-align: center;
+}

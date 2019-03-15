@@ -1,0 +1,17 @@
+.major {
+  font-size: 100px;
+  color: red;
+  text-align: center;
+}
+
+.notMajor {
+  font-size: 50px;
+  color: blue;
+  text-align: center;
+}
+
+.other {
+  font-size: 150px;
+  color: brown;
+  text-align: center;
+}

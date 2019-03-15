@@ -1,0 +1,16 @@
+body {
+  background-color: red;
+}
+
+.good {
+  text-align: center;
+  color: white;
+  font-size: 100px;
+  font-weight: bold;
+}
+
+.notGood {
+  text-align: center;
+  color: black;
+  font-size: 150px;
+}
