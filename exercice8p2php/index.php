@@ -1,5 +1,5 @@
 <?php
-$isOk = true;
+$isOk = false;
 ?>
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
@@ -10,11 +10,10 @@ $isOk = true;
 </head>
 <body>
   <!-- Traduire ce code avec des if et des else : -->
-  <?php if ($isOk == true) { ?>
+  <?php if ($isOk) { ?>
     <p class="good">C'est ok !!</p>
-  <?php }
-  else if ($isOk == false) { ?>
-    <p class="notGood">C\'est pas bon !</p>
+  <?php } else { ?>
+    <p class="notGood">C'est pas bon !</p>
   <?php } ?>
 </body>
 </html>

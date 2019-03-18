@@ -1,5 +1,5 @@
 <?php
-$gender = 'cheval';
+$gender = 'homme';
 ?>
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
@@ -9,12 +9,13 @@ $gender = 'cheval';
   <title>Exercice 5 Partie 2 php</title>
 </head>
 <body>
-  <!-- Traduire ce code avec des if et des else : -->
+  <!-- Traduire ce code avec des if et des else :
+        echo ($gender != 'Homme') ? 'C\'est une développeuse !!!' : 'C\'est un développeur !!!'; -->
   <?php if ($gender == 'femme') { ?>
   <p class="woman">C'est une développeuse !!!</p>
   <?php }else if ($gender == 'homme') { ?>
   <p class="man">C'est un développeur !!!</p>
-  <?php }else{ ?>
+  <?php }else { ?>
   <p class="other">Merci d'entrer un genre correct !</p>
   <?php } ?>
 </body>

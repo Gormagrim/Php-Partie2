@@ -10,7 +10,7 @@ $age = 110;
 </head>
 <body>
   <!-- Traduire ce code avec des if et des else : -->
-  <?php if ($age >= 18 AND $age <= 100) { ?>
+  <?php if ($age >= 18 && $age <= 100) { ?>
     <p class="major">Tu es majeur</p>
   <?php }else if ($age < 18 ) { ?>
     <p class="notMajor">Tu n'es pas majeur</p>

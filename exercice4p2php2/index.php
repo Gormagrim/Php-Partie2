@@ -1,5 +1,5 @@
 <?php
-$richter = 8;
+$richter = 2;
 ?>
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
@@ -14,12 +14,15 @@ $richter = 8;
   Créer une variable magnitude. Selon la valeur de magnitude, afficher la
   phrase correspondante. -->
   <?php
+  // Le switch est utilisé pour une condition basique.
   switch ($richter)
   {
+    // Dans la cas ou $richter est égal à 1:
     case 1:
     ?>
     <p>Micro-séisme impossible à ressentir.</p>
     <?php
+    // break est utilisé pour arrêter le switch une fois que nous sommes passés dans la bonne condtion.
     break;
     case 2:
     ?>
@@ -59,6 +62,12 @@ $richter = 8;
     case 9:
     ?>
     <p>Séisme capable de tout détruire sur une très vaste zone.</p>
+    <?php
+    break;
+    // équivalent du else.
+    default :
+    ?>
+    <p>Merci de rentrer un niveau valide !</p>
     <?php
   }
   ?>

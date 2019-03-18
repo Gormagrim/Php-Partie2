@@ -1,6 +1,6 @@
 <?php
-$age = 38;
-$gender = 'homme';
+$age = 20;
+$gender = 'femme';
 ?>
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
@@ -19,14 +19,18 @@ $gender = 'homme';
   Vous êtes une femme et vous êtes majeur
   Vous êtes une femme et vous êtes mineur
   Gérer tous les cas. -->
-  <?php if ($gender == 'femme'AND $age < 18) { ?>
+  <?php if ($gender == 'femme' && $age < 18 && $age > 0) { ?>
     <p class="youngWoman">Vous êtes une femme et vous êtes mineur</p>
-  <?php } else if ($gender == 'femme'AND $age >= 18) { ?>
+  <?php } else if ($gender == 'femme' && $age >= 18 && $age < 100) { ?>
     <p class="oldWoman">Vous êtes une femme et vous êtes majeur</p>
-    <?php } else if ($gender == 'homme'AND $age < 18) { ?>
+  <?php } else if ($gender == 'homme' && $age < 18 && $age > 0) { ?>
     <p class="youngMan">Vous êtes un homme et vous êtes mineur</p>
-    <?php } else if ($gender == 'homme'AND $age >= 18) { ?>
+  <?php } else if ($gender == 'homme' && $age >= 18 && $age < 100) { ?>
     <p class="oldMan">Vous êtes un homme et vous êtes majeur</p>
-    <?php } ?>
+  <?php } else if ($gender != 'homme' && $gender != 'femme') { ?>
+    <p class="oldMan">Merci d'entrer un genre valide</p>
+  <?php } else { ?>
+    <p class="oldMan">Merci d'entrer un age valide</p>
+  <?php } ?>
 </body>
 </html>
